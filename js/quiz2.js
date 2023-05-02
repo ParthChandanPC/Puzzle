@@ -13,7 +13,7 @@ btn.onclick = function () {
     if (answerString.length == 0) {
         alert('Invalid input');
     }
-    else if (answerString == "salman khan".toLowerCase().trim()) {
+    else if (answerString == "donald duck".toLowerCase().trim()) {
         ok = true;
         correct++;
     } else {

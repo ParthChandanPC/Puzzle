@@ -33,8 +33,8 @@ function submitForm(e) {
     var email = document.getElementById('email').value.toString().trim();
     var password = document.getElementById('password').value.toString().trim();
 
-    if(email=='admin@admin.com'){
-        if(password=='adminpass'){
+    if(email=='admin@mickey.com'){
+        if(password=='clubhouse'){
             window.location.href = 'admin.html';
         }else{
             alert('wrong password');

@@ -1,46 +1,27 @@
-let btn1 = document.getElementById('first-btn');
-let btn2 = document.getElementById('second-btn');
-let input1 = document.getElementById('first-input');
-let input2 = document.getElementById('second-input');
+let input = document.querySelector('input');
+let btn = document.querySelector('button');
 
-let total=0,correct=0;
+let correct = 0, total = 0;
+let accuracy = 0.0;
 
-btn2.onclick = function(){
-    let answerString = input2.value.toString().toLowerCase().trim();
-    total++;
-    if(answerString.length==0){
-        alert('Invalid input');
-    }
-    else if(answerString=="a+c+e" || answerString=="b+d+f"){
-        correct++;
-        document.getElementById('clickhere').style.visibility='visible';
-    }else{
-        alert('wrong answer');
-    }
-    accuracy = (correct/total)*100;
-    console.log(accuracy);
+btn.onclick = function () {
 
-    uploadData(accuracy);
-}
-
-btn1.onclick = function(){
-    let answerString = input1.value.toString().toLowerCase().trim();
-    total++;
     var ok = false;
 
-    if(answerString.length==0){
+    let answerString = input.value.toString().toLowerCase();
+    total++;
+    if (answerString.length == 0) {
         alert('Invalid input');
     }
-    else if(answerString=="queue"){
-        correct++;
+    else if (answerString == "mickey mouse".toLowerCase().trim()) {
         ok = true;
-    }else{
-        alert('wrong answer');
+        correct++;
+    } else {
+        alert('Oops! wrong answer');
     }
-    accuracy = (correct/total)*100;
-    console.log(accuracy);
-    
-    uploadData(accuracy,ok);
+    accuracy = (correct / total) * 100;
+    uploadData(accuracy, ok);
+
 }
 
 function uploadData(accuracy,ok) {

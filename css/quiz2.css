@@ -8,6 +8,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.dec{
+    text-align: center;
+}
 
 .box{
     color: white;

@@ -2,29 +2,33 @@
 p{
     font-size: 30px;
 }
-/* ************************************************START PAGE******************************************** */
-
-
-/* Home Section CSS */
 
 .home{
-    background-color: antiquewhite;
+    background: url(/assets/ch.jpg) center/cover repeat;
     padding: 30px;
 }
 
 .item-left{
     background-color: #f6ddff;
-   
+    opacity: 0.4;
     display: block;
-    margin: 100px;
-    border: 2px solid rgb(241, 117, 117);
+    margin: 150px;
+    border: 2px solid rgb(237, 5, 5);
     border-radius: 20px;
     padding: 100px;
 }
+.item-left:hover{
+    opacity:0.8;
+}
+
+.text{
+    color: #f70e0e;
+}
 
 .playbtn{
-    background-color: #e29696;
-    margin-top: 20px;
+    font-size: 25px;
+    background-color: #ef0b0b;
+    margin-top: 9px;
     padding: 5px 48px;
     border: 2px solid black;
     border-radius: 30px;

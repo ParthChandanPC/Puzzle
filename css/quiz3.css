@@ -2,7 +2,7 @@ body{
     background: url(/assets/fl.jpg) center/cover no-repeat;
 }
 .container{
-    margin: 60px;
+    margin: 62px;
     color: black;
     display: flex;
     flex-direction: column;
@@ -26,6 +26,7 @@ body{
 
 p{
     font-size: 2rem;
+    font-weight: bold;
 }
 
 ul{
@@ -36,7 +37,7 @@ ul li a{
 }
 
 img{
-    height: 200px;
+    height: 220px;
     width: 200px;
     margin: 20px;
 }

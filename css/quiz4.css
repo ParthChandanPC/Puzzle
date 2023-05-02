@@ -1,17 +1,31 @@
 body {
-    background: url(/assets/andrew-ridley-jR4Zf-riEjI-unsplash\ \(1\).jpg) center/cover no-repeat;
+    background: url(/assets/ss.jpg) center/cover no-repeat;
 }
 
 #nav{
-    background-color: rgba(255, 255, 255, 0.41);
+    background-color: #e0a5a5;
     color: black;
 }
-.container {
-    margin: 60px;
+.container{
+    margin: 150px;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.box{
+    color: white;
+    border: 2px solid rgb(221, 20, 20);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.153);
+    transition: all 0.6s ease;
+    cursor: pointer;
+    
+}
+.box:hover{
+    background-color: rgba(0, 0, 0, 0.504);
 }
 
 .box hr{
@@ -22,6 +36,7 @@ body {
 
 p {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 ul {
@@ -33,7 +48,7 @@ ul li a {
 }
 
 img {
-    height: 400px;
+    height: 500px;
     margin: 20px;
     border-radius: 10px;
 }

@@ -13,7 +13,7 @@ btn.onclick = function () {
     if (answerString.length == 0) {
         alert('Invalid input');
     }
-    else if (answerString == "summary".toLowerCase().trim()) {
+    else if (answerString == "minnie mouse".toLowerCase().trim()) {
         ok = true;
         correct++;
     } else {
