@@ -17,7 +17,7 @@ The puzzle revolves around the theme of Mickey Mouse Club House, a TV show which
 
 
 ## Web Link
- Website Live on -- 
+ Website Live on -- https://master--teal-empanada-4c39f1.netlify.app/
 
 
 
@@ -55,7 +55,7 @@ Extract the given folder and run index.html on localhost.
 - Minimum 1 solution: Yes
 - User data: Yes(Accuracy of each user at each clue page)
 - Dashboard for admin for tracking user data: Yes
-- Start again on window refresh: No
+- Start again on window refresh: No (Rather added a button to restart the game at any page as javascript blocked prompt request on refresh)
 - The data of the users is stored on Firebase.
 
 
