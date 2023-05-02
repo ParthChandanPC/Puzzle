@@ -1,22 +1,24 @@
-# elitmusAssignment
 
-## My Assignment for eLitmus Project
+## Puzzle Application
 It is an interacting puzzle game that will analyze the visualization , imagination and problem solving ability of the users. 
-There are adequate clues provided , which will healp out users to find the answers. The accuracy level of the users is calculated by measuring the time elapsed 
+There are adequate clues provided , which will help out users to find the answers. The accuracy level of the users is calculated by measuring the correct and incorrect submissions 
 at each page.
 
+## Central Theme
+The puzzle revolves around the theme of Mickey Mouse Club House, a TV show which is very famous among young generation. The puzzles involve finding memebers of the clubhouse which includes Mickey Mouse, Minnie Mouse, Goofy, Pete, Donald Duck and Pluto.
+
 ## Soft skill to be assesed
-- Problem-solving
-- Attention to detail
-- Memory Retention 
-- General Awareness
+- Memory Retention
 - Time management
+- Problem-solving
+- Attention to detail 
+- General Awareness
 - Numerical Ability
 
 
 ## Web Link
  Website Live on -- 
-https://master--nimble-taiyaki-85ba10.netlify.app/
+
 
 
 ## Possible ways
@@ -25,23 +27,16 @@ There are 6 quizes in this puzzle leading to the final page. At each step the us
 ## Dead Ends 
 There are 2 dead ends to this puzzle , which are given in form of false hints and clues .
 The first one is deadend.html page which is linked with quiz1. It is just a normal page with a message telling the user that this page got nothing.
-The second one is page clue_clue.html that has several links to confuse the user. But actually this page has no hints to the answer. This page is linked to page quiz5.html and can be accessed by clicking on 'Page' hyperlink.
+The second one is page lol.html that has no hints to the answer. This page is linked to page quiz6.html and can be accessed by clicking on 'ME' hyperlink.
 
 
 ## Quizes and Answers
-Quiz 1: View the source code of the page to find the first clue.
-Answer: The answer is Rocky.
-Quiz 2: Find the person from hints.
-Answer: The answer is Salman Khan.
-Quiz 3: Scan the QR code.
-Answer: The answer is playing chess.
-Quiz 4: Solve the riddle in the image
-Answer: The answer is electricity
-Quiz 5: What is Mary+Mary equals to?
-Answer: The answer is Summary.
-Quiz 6: What English word retains the same pronunciation, even after you take away four of its five letters?.
-Answer: To see the hint, type a+c+e or b+d+f in the second input box and submit. Then open the link which show an image of a queue. Therefore,the answer to the question 
-is Queue .
+Answer 1: Pete
+Answer 2: Donald Duck
+Answer 3: Goofy
+Answer 4: Pluto
+Answer 5: Minnie Mouse
+Answer 6: Mickey Mouse
 END: Claim Gift
 Solution: Click on the button to claim gift.
 
@@ -61,7 +56,7 @@ Extract the given folder and run index.html on localhost.
 - Start again on window refresh: No
 - The data of the users is stored on Firebase.
 
-![fss1](https://user-images.githubusercontent.com/91338410/232342812-27974705-8a85-465b-8723-056b7ce527c5.png)
+
 
 
 
