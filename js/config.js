@@ -15,6 +15,17 @@
 //   console.log("hey")
 // })
 
+var restart_btns=document.getElementsByClassName("restart-btn");
+Object.values(restart_btns).map((e)=>{
+  e.addEventListener("click", ()=>{
+    var c=confirm("Do you want to restart the game.");
+    if(c){
+      window.location.href=("./start.html")
+    }
+  })
+  console.log(e)
+})
+
 const firebaseConfig = {
   apiKey: "AIzaSyAlrXO8jHN8cGyOnwhDwxD8gIdbnGBMS6s",
   authDomain: "puzzle-application-ef29c.firebaseapp.com",
