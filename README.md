@@ -31,14 +31,16 @@ The second one is page lol.html that has no hints to the answer. This page is li
 
 
 ## Quizes and Answers
-Answer 1: Pete
-Answer 2: Donald Duck
-Answer 3: Goofy
-Answer 4: Pluto
-Answer 5: Minnie Mouse
-Answer 6: Mickey Mouse
-END: Claim Gift
-Solution: Click on the button to claim gift.
+- Answer 1: Pete
+- Answer 2: Donald Duck
+- Answer 3: Goofy
+- Answer 4: Pluto
+- Answer 5: Minnie Mouse
+- Answer 6: Mickey Mouse
+- END: Claim Gift
+
+## Solution
+Click on the button to claim gift.
 
 ## Requirements
 The source code of this project is written in HTML/CSS/JS. So, you do not require anything extra to run this project.
